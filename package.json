@@ -1,0 +1,19 @@
+{
+  "name": "esports-site-generator",
+  "version": "1.0.0",
+  "description": "Генератор статического сайта с расписанием киберспортивных матчей (PandaScore API)",
+  "main": "generator.js",
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node generator.js",
+    "start": "node generator.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "license": "MIT"
+}
